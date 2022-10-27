@@ -1,0 +1,55 @@
+body{
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+}
+.secondcontainer{
+    border: 3px solid wheat;
+    border-radius: 5px;
+    margin: 130px auto;
+    height: 315px;
+    width: 249px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 6px;
+    gap: 8px;
+    background-color: rgb(173, 159, 159);
+}
+.items{
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(248, 104, 104);
+    color: aliceblue;
+    text-align: center;
+    font-size: 45px;
+    cursor: pointer;
+}
+input[type="text"]{
+    font-size: 45px;
+    color: black;
+    margin-top: 5px;
+}
+#firstcontainer{
+    width: 266px;
+    height: 64px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    position: relative;
+    top: 123px;
+    right: -667px;
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: rgb(245, 239, 233);
+    font-size: 45px;
+    font-weight: bold;
+}
+.items:hover{
+    background-color: grey;
+}
+#sin,
+#cos,
+#tan{
+    font-size: 25px;
+}
